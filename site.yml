@@ -1,0 +1,6 @@
+---
+- name: test plugins
+  hosts: all
+  tasks:
+    - name: test my action plugin
+      ping:
