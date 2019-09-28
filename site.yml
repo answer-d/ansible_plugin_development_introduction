@@ -4,3 +4,7 @@
   tasks:
     - name: test my action plugin
       ping:
+    - name: test my become plugin
+      shell: echo hoge
+      become: yes
+      become_method: my_become
